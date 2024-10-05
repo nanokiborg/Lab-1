@@ -24,10 +24,10 @@ def draw_romb():
 
                 if line < center:
                     offset -= step
-                    lenght += size * 2
+                    lenght += step*2
                 else:
                     offset += step
-                    lenght -= size * 2
+                    lenght -= step*2
             print(f"\x1b[{size+2}A")
             print(f"\x1b[{offset}D")
 
